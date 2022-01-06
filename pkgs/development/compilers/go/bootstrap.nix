@@ -1,15 +1,15 @@
 { callPackage }:
 callPackage ./binary.nix {
-  version = "1.16";
+  version = "1.17.5";
   hashes = {
     # Use `print-hashes.sh ${version}` to generate the list below
-    darwin-amd64 = "6000a9522975d116bf76044967d7e69e04e982e9625330d9a539a8b45395f9a8";
-    darwin-arm64 = "4dac57c00168d30bbd02d95131d5de9ca88e04f2c5a29a404576f30ae9b54810";
-    linux-386 = "ea435a1ac6d497b03e367fdfb74b33e961d813883468080f6e239b3b03bea6aa";
-    linux-amd64 = "013a489ebb3e24ef3d915abe5b94c3286c070dfe0818d5bca8108f1d6e8440d2";
-    linux-arm64 = "3770f7eb22d05e25fbee8fb53c2a4e897da043eb83c69b9a14f8d98562cd8098";
-    linux-armv6l = "d1d9404b1dbd77afa2bdc70934e10fbfcf7d785c372efc29462bb7d83d0a32fd";
-    linux-ppc64le = "27a1aaa988e930b7932ce459c8a63ad5b3333b3a06b016d87ff289f2a11aacd6";
-    linux-s390x = "be4c9e4e2cf058efc4e3eb013a760cb989ddc4362f111950c990d1c63b27ccbe";
+    darwin-amd64 = "2db6a5d25815b56072465a2cacc8ed426c18f1d5fc26c1fc8c4f5a7188658264";
+    darwin-arm64 = "111f71166de0cb8089bb3e8f9f5b02d76e1bf1309256824d4062a47b0e5f98e0";
+    linux-386 = "4f4914303bc18f24fd137a97e595735308f5ce81323c7224c12466fd763fc59f";
+    linux-amd64 = "bd78114b0d441b029c8fe0341f4910370925a4d270a6a590668840675b0c653e";
+    linux-arm64 = "6f95ce3da40d9ce1355e48f31f4eb6508382415ca4d7413b1e7a3314e6430e7e";
+    linux-armv6l = "aa1fb6c53b4fe72f159333362a10aca37ae938bde8adc9c6eaf2a8e87d1e47de";
+    linux-ppc64le = "3d4be616e568f0a02cb7f7769bcaafda4b0969ed0f9bb4277619930b96847e70";
+    linux-s390x = "8087d4fe991e82804e6485c26568c2e0ee0bfde00ceb9015dc86cb6bf84ef40b";
   };
 }
